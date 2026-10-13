@@ -33,7 +33,6 @@ a { text-decoration: none; color: inherit; }
   background: #2f6fff;
   border-radius: 10px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.1rem;
 }
 .land-brand-text strong { font-size: 1rem; font-weight: 800; color: #1a1a1a; display: block; letter-spacing: 0.5px; }
 .land-brand-text span   { font-size: 0.65rem; color: #6b6b6b; text-transform: lowercase; letter-spacing: 0.3px; }
@@ -58,10 +57,11 @@ a { text-decoration: none; color: inherit; }
 
 .land-body {
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: 1fr 390px;
   gap: 20px;
-  padding: 20px 40px 0;
+  padding: 20px 40px;
   flex: 1;
+  align-items: start;
 }
 
 .land-left { display: flex; flex-direction: column; gap: 14px; }
@@ -85,26 +85,23 @@ a { text-decoration: none; color: inherit; }
 .land-hero-blob {
   position: absolute;
   right: 28px; top: 22px;
-  width: 80px; height: 80px;
+  width: 72px; height: 72px;
   background: #ffb3cc;
   border-radius: 50% 50% 50% 40%;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.8rem; color: #c05080;
 }
 
 .land-photo {
   border-radius: 18px;
   overflow: hidden;
-  height: 220px;
-  background: linear-gradient(135deg, #d4956a, #c8845a);
+  height: 230px;
   position: relative;
-  display: flex; align-items: flex-end;
 }
-.land-photo img { width: 100%; height: 100%; object-fit: cover; }
+.land-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .land-photo-label {
   position: absolute;
   bottom: 16px; left: 16px;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.92);
   border-radius: 20px;
   padding: 6px 14px;
   font-size: 0.78rem;
@@ -127,7 +124,6 @@ a { text-decoration: none; color: inherit; }
   border-radius: 50%;
   border: 2px solid rgba(255,255,255,0.3);
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.2rem;
   flex-shrink: 0;
 }
 .land-teal-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
@@ -139,11 +135,10 @@ a { text-decoration: none; color: inherit; }
   padding: 28px 28px 24px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  height: fit-content;
+  gap: 16px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
   position: sticky;
   top: 20px;
-  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
 }
 
 .land-patient-badge {
