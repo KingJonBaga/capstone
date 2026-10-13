@@ -95,6 +95,7 @@ a { text-decoration: none; color: inherit; }
   height: 260px;
   overflow: hidden;
   flex-shrink: 0;
+  background: #c0a08a;
 }
 .land-photo img {
   width: 100%; height: 100%;
