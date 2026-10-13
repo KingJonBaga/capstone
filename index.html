@@ -27,10 +27,7 @@
       <div class="land-nav-links">
         <a href="#">Our community</a>
         <a href="#">Contact us</a>
-        <button class="land-nav-btn" onclick="showPage('register');return false;">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-          Need a hand?
-        </button>
+        <button class="land-nav-btn" onclick="showPage('register');return false;">⭕ Need a hand?</button>
       </div>
     </nav>
 
@@ -101,10 +98,7 @@
 
         <p class="login-register-line">Joining our circle? <a href="#" onclick="showPage('register');return false;">Register here</a></p>
 
-        <div class="login-privacy">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Your records are private. Your care is connected.
-        </div>
+        <div class="login-privacy">🔒 Your records are private. Your care is connected.</div>
 
         <div class="login-help-box">
           <strong>A little help goes a long way.</strong>
@@ -288,51 +282,34 @@
         </div>
 
         <div class="next-appt-card" id="pt-next-appt-card">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
-            <div style="width:36px;height:36px;background:#fce4ec;border-radius:10px;display:flex;align-items:center;justify-content:center;">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e05a8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span style="font-size:1.1rem;">📅</span>
             <span class="appt-confirmed-badge">Confirmed</span>
           </div>
           <div class="appt-label">NEXT APPOINTMENT</div>
           <div class="appt-title">Routine prenatal check-up</div>
-          <div class="appt-detail">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#4a7aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            Wednesday, June 18
-          </div>
-          <div class="appt-detail">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#4a7aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            10:30 AM · Women's Health Clinic
-          </div>
-          <div class="appt-detail">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#4a7aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-            Dr. Aisha Rahman
-          </div>
+          <div class="appt-detail">📅 Wednesday, June 18</div>
+          <div class="appt-detail">🕐 10:30 AM · Women's Health Clinic</div>
+          <div class="appt-detail">👩‍⚕️ Dr. Aisha Rahman</div>
           <button class="appt-view-btn" onclick="showPtPage('appointments')">View appointment</button>
         </div>
       </div>
 
       <div class="dash-stat-row">
         <div class="stat-card">
-          <div class="stat-icon-wrap stat-icon-blue">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4a7aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-          </div>
+          <div class="stat-icon">♥</div>
           <div class="stat-num" id="pt-stat-visits">6</div>
           <div class="stat-lbl">Prenatal visits</div>
           <div class="stat-sub" id="pt-stat-last-visit">Last visit: June 4</div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon-wrap stat-icon-pink">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e05a8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          </div>
+          <div class="stat-icon">📅</div>
           <div class="stat-num">3</div>
           <div class="stat-lbl">Upcoming appointments</div>
           <div class="stat-sub">Next: Tomorrow at 10:30 AM</div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon-wrap stat-icon-green">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#27ae60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-          </div>
+          <div class="stat-icon">✚</div>
           <div class="stat-num">12</div>
           <div class="stat-lbl">Health assessments</div>
           <div class="stat-sub">All records up to date</div>
@@ -345,10 +322,8 @@
           <p class="sub-label">Small steps that support your care plan</p>
           <div id="pt-reminders-list">
             <div class="reminder-item">
-              <div style="display:flex;align-items:center;gap:12px;flex:1;">
-                <div class="reminder-icon" style="background:#fef9c3;">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ca8a04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                </div>
+              <div style="display:flex;align-items:center;gap:0;">
+                <div class="reminder-icon" style="background:#fef9e0;">⏰</div>
                 <div>
                   <div class="reminder-title">Take prenatal vitamins</div>
                   <div class="reminder-sub">Today · After breakfast</div>
@@ -357,10 +332,8 @@
               <span class="reminder-arrow">›</span>
             </div>
             <div class="reminder-item">
-              <div style="display:flex;align-items:center;gap:12px;flex:1;">
-                <div class="reminder-icon" style="background:#dbeafe;">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                </div>
+              <div style="display:flex;align-items:center;gap:0;">
+                <div class="reminder-icon" style="background:#dbeafe;">✚</div>
                 <div>
                   <div class="reminder-title">Complete weekly wellness check</div>
                   <div class="reminder-sub">Due Friday</div>
@@ -369,10 +342,8 @@
               <span class="reminder-arrow">›</span>
             </div>
             <div class="reminder-item">
-              <div style="display:flex;align-items:center;gap:12px;flex:1;">
-                <div class="reminder-icon" style="background:#fce7f3;">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e05a8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                </div>
+              <div style="display:flex;align-items:center;gap:0;">
+                <div class="reminder-icon" style="background:#fce7f3;">📋</div>
                 <div>
                   <div class="reminder-title">Prepare questions for your visit</div>
                   <div class="reminder-sub">Tomorrow · 10:30 AM</div>
@@ -387,27 +358,21 @@
           <h3>Care for you &amp; baby</h3>
           <p class="sub-label" id="pt-care-week">Helpful guidance for week 28</p>
           <div class="care-item">
-            <div class="care-icon" style="background:#fce7f3;">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#e05a8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-            </div>
+            <div class="care-icon" style="background:#fce7f3;">♥</div>
             <div>
               <div class="care-title">Nutrition</div>
               <div class="care-sub">Choose iron-rich foods and pair them with vitamin C.</div>
             </div>
           </div>
           <div class="care-item">
-            <div class="care-icon" style="background:#dbeafe;">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-            </div>
+            <div class="care-icon" style="background:#dbeafe;">✚</div>
             <div>
               <div class="care-title">Gentle movement</div>
               <div class="care-sub">Aim for comfortable activity approved by your care team.</div>
             </div>
           </div>
           <div class="care-item">
-            <div class="care-icon" style="background:#dcfce7;">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
+            <div class="care-icon" style="background:#e6f9ee;">🛡</div>
             <div>
               <div class="care-title">Daily wellness</div>
               <div class="care-sub">Rest, hydrate, and note any changes to discuss.</div>
@@ -417,10 +382,7 @@
             <button class="btn-teal" onclick="showPtPage('records')">View Pregnancy Records</button>
             <button class="btn-outline-dark" onclick="document.getElementById('new-appt-modal').style.display='flex'">Book Appointment</button>
           </div>
-          <button class="message-link">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-            Message Provider
-          </button>
+          <button class="message-link">🔔 Message Provider</button>
         </div>
       </div>
 
@@ -441,15 +403,14 @@
 
     <!-- ── MY PROFILE ── -->
     <div id="pt-page-profile" class="mhms-page">
-
-      <div class="prof-header">
+      <div class="page-crumb">PATIENT PROFILE</div>
+      <div class="page-header-row" style="margin-bottom:16px;">
         <div>
-          <div class="page-crumb">PATIENT PROFILE</div>
-          <div class="page-title" style="font-size:2rem;margin-bottom:6px;">My Profile</div>
-          <div class="page-sub" style="margin-bottom:0;">Review and manage your personal, pregnancy, and emergency contact information.</div>
+          <div class="page-title">My Profile</div>
+          <div class="page-sub">Review and manage your personal, pregnancy, and emergency contact information.</div>
         </div>
         <button class="btn-primary" id="pt-edit-btn" onclick="toggleProfileEdit()">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
           Edit Profile
         </button>
       </div>
